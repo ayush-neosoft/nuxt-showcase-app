@@ -1,6 +1,6 @@
 
 export default {
-  mode: 'universal',
+  mode: 'spa',
   /*
   ** Headers of the page
   */
@@ -50,7 +50,8 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
-    baseURL: "http://localhost:8000/api"
+    // baseURL: "http://localhost:8000/api"
+    baseURL: "https://tranquil-lowlands-46938.herokuapp.com/api"
   },
   /*
   ** Build configuration
